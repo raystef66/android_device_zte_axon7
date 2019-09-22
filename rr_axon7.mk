@@ -43,3 +43,5 @@ BUILD_FINGERPRINT := "google/crosshatch/crosshatch:9/PQ2A.190405.003/5310204:use
 
 PRODUCT_GMS_CLIENTID_BASE := android-zte
 
+export RR_BUILDTYPE=Official
+
