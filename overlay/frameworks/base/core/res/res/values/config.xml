@@ -502,4 +502,7 @@
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
+    <!-- Hardware buttons customization -->
+    <integer name="config_deviceHardwareKeys">83</integer>
+
 </resources>
