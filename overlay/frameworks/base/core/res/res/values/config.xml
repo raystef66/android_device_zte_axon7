@@ -505,7 +505,4 @@
      <!-- Hardware buttons customization -->
     <integer name="config_deviceHardwareKeys">83</integer>
 
-    <!-- Smart Pixels -->
-    <bool name="config_enableSmartPixels">true</bool>
-
 </resources>
