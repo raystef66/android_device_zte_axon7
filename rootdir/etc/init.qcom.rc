@@ -621,4 +621,22 @@ chmod 0666 /sys/class/leds/led\:switch/brightness
 chmod 0666 /sys/class/leds/torch-light0/brightness 
 chmod 0666 /sys/class/leds/torch-light1/brightness
 
+service imsqmidaemon /system/vendor/bin/imsqmidaemon
+    class main
+    user radio
+    socket ims_qmid stream 0660 system radio
+    group radio log oem_2950
+
+service imscmservice /system/vendor/bin/imscmservice
+    class main
+    user radio
+    group radio oem_2950 log
+    disabled
+
+service imsdatadaemon /system/vendor/bin/imsdatadaemon
+    class main
+    user radio
+    socket ims_datad stream 0660 system radio
+    group system wifi radio inet log oem_2950
+    disabled
 
