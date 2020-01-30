@@ -417,6 +417,7 @@ etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 -framework/uimlpalibrary.jar|468e695d7029af7b39d4502b4a3a1ec9e0a610ba
 lib64/libvendorcfg.so:vendor/lib64/libvendorcfg.so|db29f98af23f824fbce14bccba61c0aee00ac450
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|1d399b288e849de7f6d84db67b9da2a77d39ec2c
+product/framework/qti-telephony-common.jar|96154b2576114dd566bbc99a2d9af612de8849df
 vendor/bin/ATFWD-daemon|ed393ba98ea7df5650e72c751e6811e49ea3eae6
 vendor/bin/ipacm-diag|8f5bbcc906b01d0e84ed026b724c8ba5922690a8
 vendor/bin/netmgrd|f5ce9d1f5570fe17f51256585beccb77ad1375c8
@@ -425,6 +426,9 @@ vendor/bin/rmt_storage|4e42aaebe937bc547400833e5b8a01b2b4e8cd8b
 vendor/bin/tftp_server|05a9c0e0e691e534e703bded4a99083d25a26ebb
 vendor/etc/data/dsi_config.xml|c85722f90588edd3288b953b0ab97c81edeabfa9
 vendor/etc/data/netmgr_config.xml|23db3d4430cec4780123429ccf720923480333e0
+vendor/etc/init/netmgrd.rc|213d147cfcfe175aa4cdf1a345f3b148ea72982d
+vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
+vendor/etc/init/vendor.qti.tftp.rc|091915c28a3bc574d39189688748cc922d9e65e4
 vendor/lib64/libconfigdb.so|395fe18787a4e1eb07f6f7962f0e400f3dc17576
 vendor/lib64/liblqe.so|14a8623f865c47a6d78afd360f8f16684f1dbb9f
 vendor/lib64/libmdmdetect.so|4d53c9aaf01f31605575f040ba95e9a32af10cc5
@@ -515,6 +519,9 @@ vendor/lib/lib-siputility.so|b8836e31dd1bdf04c401f0d452fb0e6e75cdc8c5
 vendor/lib/lib-uceservice.so|9dc40ac9b5a8e23190087824c8c6d904594f9da8
 vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so|3373ec7a4f3b81e028a530c882c6ff8c6cf39639
 vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so|3a46de102fb4b7634a2cfc61d5171eab7833227d
+product/lib64/libimsmedia_jni.so|448795a73bbf72fc0c9876f86a13769139ea8022
+-product/priv-app/ims/ims.apk|a3d6918dfe1abbcce807abb5f74cfd642485559f
+vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|936011dbcfd05ea9350f7410bb6f4d69ddd3fb61
 
 # Sensors - from op3 - PKQ1.181203.001
 vendor/etc/sensors/hals.conf
