@@ -405,7 +405,6 @@ vendor/lib/libqmiservices.so|a726fbed75d863d67206c8e027ad391140f4a488
 vendor/lib/libqmi.so|1d1dbf7dba981e620ea9d4cdc2336040ca085fca
 vendor/lib/libsmemlog.so|4e90311f07677be47af2c2df086c705fd9399ff9
 
-# RIL - from fujisan - OPM1.171019.026
 # qti-telephony-common.jar - from daisy - PKQ1.180917.001
 -app/QtiTelephonyService/QtiTelephonyService.apk|c01d25e34c2dcf993d786f107a17a6323a337baa
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
@@ -462,7 +461,6 @@ vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so|128bc67f482
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so|7a8567a10b7913957522c9e583069cdc606ac564
 vendor/radio/qcril_database/qcril.db|57152221f3e51e4caa6305236ca0e1bfb75ebc98
 
-# IMS - from fujisan - OPM1.171019.026
 # ims.apk - from daisy - PKQ1.180917.001
 etc/permissions/qti-vzw-ims-internal.xml:vendor/etc/permissions/qti-vzw-ims-internal.xml
 lib64/com.qualcomm.qti.imscmservice@1.0.so|f3f5ae003f520b5e0f02640475cc2adb5cfa2b7b
