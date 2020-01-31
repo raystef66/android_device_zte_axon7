@@ -391,7 +391,7 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     ims_ext_common.xml
 
-PRODUCT_PACKAGES += \
+PRODUCT_BOOT_JARS += \
    telephony-ext \
 
 # Seccomp policy
