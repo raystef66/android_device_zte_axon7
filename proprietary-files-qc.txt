@@ -412,7 +412,7 @@ etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/lpa.xml|5aed30f29c7fbe91dcf7eef9dddbdf96ac6bcbee
 etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 -framework/qcrilhook.jar|a6e0b85b150943212a9dd4cce67981f365bc16c4
-#-framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
+-framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
 -framework/QtiTelephonyServicelibrary.jar|5741f312cb37d8d05f8f217da7a57937880344f4
 -framework/uimlpalibrary.jar|468e695d7029af7b39d4502b4a3a1ec9e0a610ba
 lib64/libvendorcfg.so:vendor/lib64/libvendorcfg.so|db29f98af23f824fbce14bccba61c0aee00ac450
