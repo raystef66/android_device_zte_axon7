@@ -39,9 +39,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="P996A01_O-user 8.0.0 OPR1.170623.032 28 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "google/crosshatch/crosshatch:9/PQ2A.190405.003/5310204:user/release-keys"
+BUILD_FINGERPRINT := "OnePlus/OnePlus3/OnePlus3:8.0.0/OPR1.170623.032/02281230:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-zte
 
-export RR_BUILDTYPE=Official
+export RR_BUILDTYPE=OFFICIAL
 
